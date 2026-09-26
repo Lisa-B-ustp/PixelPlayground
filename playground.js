@@ -12,13 +12,17 @@ drawPixel(56,49);
 drawPixel(49,46, "lightblue");
 drawPixel(54,46, "lightgreen");
 
-drawHorizontalLine(15,77, "brown");
+drawHorizontalLine(15,77, "lightgreen");
 drawHorizontalLine(15,72,);
 drawPixel(15,73);
 drawPixel(15,74);
 drawPixel(15,75);
 drawPixel(15,76);
+drawPixel(21,76);
+drawPixel(21,75);
+drawPixel(21,74);
+drawPixel(21,73);
 
-drawVertikalLine(70,70, "pink");
+drawRetangle(70,70, "fuchsia")
 drawRetangle(20,40, "turquoise")
 drawRetangle(80,20, "orange")

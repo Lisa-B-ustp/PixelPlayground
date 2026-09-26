@@ -61,9 +61,9 @@ function drawRetangle(x,y, color) {
   drawPixel(x+3,y+2, color);
   drawPixel(x+3,y+3, color);
   drawPixel(x+1,y+3, color);
-  drawPixel(x+1,y+2, color);
-  drawPixel(x+1,y+1, color);
+  drawPixel(x+2,y+3, color);
 } 
+
 
 clearScreen("black");
 
