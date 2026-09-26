@@ -18,7 +18,7 @@ drawPixel(15,73);
 drawPixel(15,74);
 drawPixel(15,75);
 drawPixel(15,76);
-drawPixel(19,73);
-drawPixel(19,74);
-drawPixel(19,75);
-drawPixel(19,76);
+
+drawVertikalLine(70,70, "pink");
+drawRetangle(20,40, "turquoise")
+drawRetangle(80,20, "orange")
