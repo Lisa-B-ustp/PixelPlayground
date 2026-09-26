@@ -1,4 +1,24 @@
 clearScreen("black");
 drawPixel(20, 20, "blue");
 drawHorizontalLine(10, 10, "green");
-console.log("hello World");
+drawPixel(30,20, "orange");
+drawPixel(40,20, "purple");
+drawPixel(50,20, "red");
+console.log("hello Lisa. Nice to have you here.");
+
+drawHorizontalLine(50,50);
+drawPixel(48,49);
+drawPixel(56,49);
+drawPixel(49,46, "lightblue");
+drawPixel(54,46, "lightgreen");
+
+drawHorizontalLine(15,77, "brown");
+drawHorizontalLine(15,72,);
+drawPixel(15,73);
+drawPixel(15,74);
+drawPixel(15,75);
+drawPixel(15,76);
+drawPixel(19,73);
+drawPixel(19,74);
+drawPixel(19,75);
+drawPixel(19,76);
