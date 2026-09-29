@@ -30,11 +30,34 @@ function drawPixel(x, y, color) {
 }
 
 function drawHorizontalLine(x, y, color) {
-    drawPixel(x, y, color);
-    drawPixel(x+1, y, color);
-    drawPixel(x+2, y, color);
-    drawPixel(x+3, y, color);
-    drawPixel(x+4, y, color);
+      drawPixel(x, y, color);
+      drawPixel(x+1, y, color);
+      drawPixel(x+2, y, color);
+      drawPixel(x+3, y, color);
+      drawPixel(x+4, y, color);
+}
+
+function drawVariableHorizontalLine(x,y, color, length) {
+  for (let i = 0; i < length; i = i+1) {
+    drawPixel(x + i, y, color);
+  }
+}
+
+function drawVariableVertikalLine(x, y, color, length) {
+  for (let i = 0; i < length; i = i + 1) {
+    drawPixel(x, y + i, color);
+  }
+}
+
+function drawRectangle (x, y, width, height) {
+  for (let i = 0; i <= width; i = i + 1) {
+    drawPixel(x + i, y);
+    drawPixel(x + width, y + i);
+  }
+  for (let i = 0; i <= height; i = i + 1) {
+    drawPixel(x, y + i);
+    drawPixel(x + i, y + height);
+  }
 }
 
 clearScreen("black");
